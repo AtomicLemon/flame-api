@@ -4,6 +4,9 @@ https://www.flame.exchange/
 
 ## Version: 2.1.21
 
+### All addresses can be prefixed with: https://www.flame.exchange/api/v2/peatio/
+So to get a list of available markets, call to https://www.flame.exchange/api/v2/peatio/public/markets/tickers
+
 
 ### Security
 **Bearer**  
