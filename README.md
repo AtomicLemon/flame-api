@@ -26,6 +26,9 @@ Get ticker of specific market.
 | ---- | ---------- | ----------- | -------- | ---- |
 | market | path |  | Yes | string |
 
+##### Example
+/public/markets/0xmrbtc/tickers
+
 ##### Responses
 
 | Code | Description |
@@ -62,6 +65,9 @@ Get OHLC(k line) of specific market.
 | time_to | query | An integer represents the seconds elapsed since Unix epoch. If set, only k-line data till that time will be returned. | No | integer |
 | limit | query | Limit the number of returned data points default to 30. Ignored if time_from and time_to are given. | No | integer |
 
+##### Example
+/public/markets/0xmrbtc/k-line
+
 ##### Responses
 
 | Code | Description |
@@ -81,6 +87,9 @@ Get depth or specified market. Both asks and bids are sorted from highest price 
 | ---- | ---------- | ----------- | -------- | ---- |
 | market | path |  | Yes | string |
 | limit | query | Limit the number of returned price levels. Default to 300. | No | integer |
+
+##### Example
+/public/markets/0xmrbtc/depth
 
 ##### Responses
 
@@ -105,6 +114,9 @@ Get recent trades on market, each trade is included only once. Trades are sorted
 | timestamp | query | An integer represents the seconds elapsed since Unix epoch.If set, only trades executed before the time will be returned. | No | integer |
 | order_by | query | If set, returned trades will be sorted in specific order, default to 'desc'. | No | string |
 
+##### Example
+/public/markets/0xmrbtc/trades
+
 ##### Responses
 
 | Code | Description | Schema |
@@ -125,6 +137,9 @@ Get the order book of specified market.
 | market | path |  | Yes | string |
 | asks_limit | query | Limit the number of returned sell orders. Default to 20. | No | integer |
 | bids_limit | query | Limit the number of returned buy orders. Default to 20. | No | integer |
+
+##### Example
+/public/markets/0xmrbtc/order-book
 
 ##### Responses
 
