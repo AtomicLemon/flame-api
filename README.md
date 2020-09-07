@@ -1,5 +1,5 @@
 # Flame.Exchange User API v2
-API for the Flame.Exchange application.
+API for the Flame.Exchange application. (Better authentication guides coming soon)
 https://www.flame.exchange/
 
 ### All addresses can be prefixed with: https://www.flame.exchange/api/v2/peatio/
