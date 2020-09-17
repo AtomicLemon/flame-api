@@ -2,6 +2,9 @@
 API for the Flame.Exchange application. (Better authentication guides coming soon)
 https://www.flame.exchange/
 
+If you would 1 on 1 support with the API you can contact [@Iana0](https://t.me/Iana0) on Telegram.
+You can also submit a support ticket through our portal: https://premiumllc.freshdesk.com/
+
 ### All addresses can be prefixed with: https://www.flame.exchange/api/v2/peatio/
 So to get a list of available markets, call to https://www.flame.exchange/api/v2/peatio/public/markets/tickers
 
